@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" type="image/png" href="android-chrome-512x512.png">
+    <meta name="google-site-verification" content="vqq11CWNVkLVnZvjCeZReKc8-FRmgxek2SOWjr35CbY" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Amazon Baby Product Reviews Sentiment Analysis | Amazon-Baby-Product-Reviews-Sentiment-Analysis</title>
+<meta name="generator" content="Jekyll v3.9.5" />
+<meta property="og:title" content="Amazon Baby Product Reviews Sentiment Analysis" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="This project applies a K-Nearest Neighbors (KNN) classifier to analyze sentiment in Amazon baby product reviews. The primary objective is to predict whether a review is positive, neutral, or negative based on the text content." />
+<meta property="og:description" content="This project applies a K-Nearest Neighbors (KNN) classifier to analyze sentiment in Amazon baby product reviews. The primary objective is to predict whether a review is positive, neutral, or negative based on the text content." />
+<link rel="canonical" href="https://esmail-sarhadi.github.io/Amazon-Baby-Product-Reviews-Sentiment-Analysis/" />
+<meta property="og:url" content="https://esmail-sarhadi.github.io/Amazon-Baby-Product-Reviews-Sentiment-Analysis/" />
+<meta property="og:site_name" content="Amazon-Baby-Product-Reviews-Sentiment-Analysis" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Amazon Baby Product Reviews Sentiment Analysis" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"This project applies a K-Nearest Neighbors (KNN) classifier to analyze sentiment in Amazon baby product reviews. The primary objective is to predict whether a review is positive, neutral, or negative based on the text content.","headline":"Amazon Baby Product Reviews Sentiment Analysis","name":"Amazon-Baby-Product-Reviews-Sentiment-Analysis","url":"https://esmail-sarhadi.github.io/Amazon-Baby-Product-Reviews-Sentiment-Analysis/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/Amazon-Baby-Product-Reviews-Sentiment-Analysis/assets/css/style.css?v=bd5fb474fdd4be6b1160f385ca323f7a4592fbbd">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/Amazon-Baby-Product-Reviews-Sentiment-Analysis/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="https://esmail-sarhadi.github.io/Amazon-Baby-Product-Reviews-Sentiment-Analysis/">Amazon-Baby-Product-Reviews-Sentiment-Analysis</a></h1>
+      
+
+      
+<h1 id="amazon-baby-product-reviews-sentiment-analysis">Amazon Baby Product Reviews Sentiment Analysis</h1>
+
+<p>This project applies a K-Nearest Neighbors (KNN) classifier to analyze sentiment in Amazon baby product reviews. The primary objective is to predict whether a review is positive, neutral, or negative based on the text content.</p>
+
+<h2 id="project-overview">Project Overview</h2>
+
+<p>The project involves the following steps:</p>
+<ol>
+  <li><strong>Data Loading and Preprocessing</strong>: Load the dataset, handle missing values, and create sentiment labels.</li>
+  <li><strong>Feature Extraction</strong>: Convert the text reviews into numerical features using TF-IDF vectorization.</li>
+  <li><strong>Model Training</strong>: Train a KNN classifier on the processed data.</li>
+  <li><strong>Prediction and Evaluation</strong>: Predict sentiment labels for the test set, evaluate the model’s performance, and visualize the results.</li>
+  <li><strong>Visualization</strong>: Generate plots to illustrate the distribution of predicted and true ratings, as well as the confusion matrix.</li>
+</ol>
+
+<h2 id="key-features">Key Features</h2>
+
+<ul>
+  <li><strong>Data Handling</strong>: Preprocess and clean the review data.</li>
+  <li><strong>Feature Engineering</strong>: Use TF-IDF vectorization for transforming text data.</li>
+  <li><strong>Modeling</strong>: Implement KNN for classification.</li>
+  <li><strong>Evaluation</strong>: Calculate accuracy, mean squared error, and generate a classification report.</li>
+  <li><strong>Visualization</strong>: Create visual representations of data distributions and model performance.</li>
+</ul>
+
+<h2 id="installation">Installation</h2>
+
+<p>To run this project, ensure you have the following packages installed:</p>
+
+<ul>
+  <li>numpy</li>
+  <li>pandas</li>
+  <li>matplotlib</li>
+  <li>seaborn</li>
+  <li>scikit-learn</li>
+</ul>
+
+<p>You can install these packages using pip:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install </span>numpy pandas matplotlib seaborn scikit-learn
+</code></pre></div></div>
+
+<h2 id="usage">Usage</h2>
+
+<ol>
+  <li>Clone the repository:
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> git clone https://github.com/yourusername/amazon-baby-reviews-sentiment-analysis.git
+ <span class="nb">cd </span>amazon-baby-reviews-sentiment-analysis
+</code></pre></div>    </div>
+  </li>
+  <li>Run the Python script:
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> python sentiment_analysis.py
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="results">Results</h2>
+
+<ul>
+  <li><strong>Accuracy</strong>: The overall accuracy of the model.</li>
+  <li><strong>Mean Squared Error</strong>: The MSE of the model predictions.</li>
+  <li><strong>Confusion Matrix</strong>: A heatmap showing the confusion matrix.</li>
+  <li><strong>Rating Distributions</strong>: Histograms showing the distribution of predicted and true ratings.</li>
+</ul>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>This project demonstrates a basic application of machine learning for sentiment analysis of product reviews. The KNN classifier provides a simple yet effective approach for classifying review sentiments.</p>
+
+<h2 id="profile">Profile</h2>
+
+<p>Check out my GitHub profile: <a href="https://github.com/Esmail-sarhadi" target="_blank">Esmail Sarhadi</a></p>
+
+<h2 id="project-link">Project Link</h2>
+
+<p>View this project on GitHub: <a href="https://github.com/Esmail-sarhadi/Amazon-Baby-Product-Reviews-Sentiment-Analysis" target="_blank">Amazon-Baby-Product-Reviews-Sentiment-Analysis</a></p>
+
+<h2 id="donation">Donation</h2>
+
+<p>If you find this project helpful, consider making a donation:</p>
+<p><a href="https://nowpayments.io/donation?api_key=REWCYVC-A1AMFK3-QNRS663-PKJSBD2&source=lk_donation&medium=referral" target="_blank">
+     <img src="https://nowpayments.io/images/embeds/donation-button-black.svg" alt="Crypto donation button by NOWPayments">
+</a></p>
+      
+<h2 id="license">License</h2>
+
+<p>This project is licensed under the MIT License - see the <a href="/Amazon-Baby-Product-Reviews-Sentiment-Analysis/LICENSE">LICENSE</a> file for details.</p>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<ul>
+  <li>Dataset: Amazon baby product reviews</li>
+  <li>Libraries: numpy, pandas, matplotlib, seaborn, scikit-learn</li>
+</ul>
+
+
+
+      
+      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        This site is open source. <a href="https://github.com/Esmail-sarhadi/Amazon-Baby-Product-Reviews-Sentiment-Analysis/edit/main/README.md">Improve this page</a>.
+      </div>
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+  </body>
+</html>
